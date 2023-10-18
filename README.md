@@ -26,3 +26,5 @@ Git Commands:
 2. git commit -m "feature"
 3. git push
 4. git pull
+
+To download new 3D models, go to sketchfab.com
