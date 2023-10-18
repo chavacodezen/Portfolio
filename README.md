@@ -14,4 +14,5 @@ Steps + Installations:
 4. Install Tailwind, run on terminal: npm install -D tailwindcss
 5. Initiallize Tailwind, run on terminal: npx tailwindcss init
 6. Install all the additional packages we are going to use, run on terminal: npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
-7. To make Vite and Tailwindcss work together, run on terminal: npm install -D tailwindcss postcss autprefixer
+7. To make Vite and Tailwindcss work together, run on terminal: npm install --legacy-peer-deps -D postcss autoprefixer
+8. Initiallize Tailwind, run on terminal: npx tailwindcss init -p
