@@ -16,6 +16,7 @@ Steps + Installations:
 6. Install all the additional packages we are going to use, run on terminal: npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
 7. To make Vite and Tailwindcss work together, run on terminal: npm install --legacy-peer-deps -D postcss autoprefixer
 8. Initiallize Tailwind, run on terminal: npx tailwindcss init -p
+9. Install three to be able to modeling 3D, run on terminal: npm install --legacy-peer-deps three
 
 Vite/React Commands:
 1. Start project in dev mode: npm run dev
@@ -25,3 +26,5 @@ Git Commands:
 2. git commit -m "feature"
 3. git push
 4. git pull
+
+To download new 3D models, go to sketchfab.com
