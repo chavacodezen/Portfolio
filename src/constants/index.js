@@ -19,6 +19,7 @@ import {
   starbucks,
   tesla,
   shopify,
+  crownreact,
   carrent,
   jobit,
   tripguide,
@@ -173,66 +174,74 @@ const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+    name: "Wally Johnson",
     designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    company: "LACROIX",
+    image: "https://randomuser.me/api/portraits/men/1.jpg",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+    name: "Ed Weinheimer",
+    designation: "CTO",
+    company: "LACROIX",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: "Juan Munoz",
+    designation: "Sr Dev",
+    company: "LACROIX",
+    image: "https://randomuser.me/api/portraits/men/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Crown React",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "E-Commerce site — where style meets simplicity. Secure transactions, diverse sections, and hassle-free authentication await you.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "stripe",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "graphql",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: crownreact,
+    source_code_link: "https://cheerful-cocada-2e7bfa.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "Retourn React",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web & Mobile application that enables users to search for rentals, list new rentals, view estimated price ranges, and locate available rentals based on their current location.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "react-native",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "aws",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "graphql",
         color: "pink-text-gradient",
       },
     ],
@@ -240,20 +249,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "BorderChat",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web & Mobile app with a dynamic and engaging platform for collaborative discussions and shared insights within the local developer community.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "react-native",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "firebase",
         color: "pink-text-gradient",
       },
     ],
