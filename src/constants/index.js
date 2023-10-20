@@ -134,7 +134,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "May 2022 - Current",
     points: [
-      "Deployed a Component Cost Increase Tracker for the Purchasing Managers, and Accounting Managers. Developed with ASP.NET (MVC) a portal to have all the online projects together. For the Purchasing Team I have created a Price Increase Log (for components) and for the Accounting Managers a Component Cost Increase Tracker where they see how the price increases in the component (made by the purchasing team) affect their assemblies cost, tracking the gained/lost revenue and Tp.",
+      "Deployed a Component Cost Increase Tracker for the Purchasing Managers, and Accounting Managers. Developed with .NET (MVC) a portal to have all the online projects together. For the Purchasing Team I have created a Price Increase Log (for components) and for the Accounting Managers a Component Cost Increase Tracker where they see how the price increases in the component (made by the purchasing team) affect their assemblies cost, tracking the gained/lost revenue and Tp.",
       "Deployed Power BI Dashboards for Quality, Production and Supply Chain.",
       "Deployed EDI Reports. Developed an EDI parse tool with Python to handle EDI files and give them format to interact and create reports.",
     ],
