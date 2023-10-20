@@ -32,8 +32,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_bj1iqgb", //EMAILJS_SERVICE_ID,
-        "template_oztja3q", //EMAILJS_TEMPLATE_ID,
+        "service_bj1iqgb", //REACT_APP_EMAILJS_SERVICE_ID,
+        "template_oztja3q", //REACT_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Bryan Chavarria",
@@ -41,7 +41,7 @@ const Contact = () => {
           to_email: "b.chavarria@codezen.mx",
           message: form.message,
         },
-        "Y-ncLNPs1MjSs0LO8" //EMAILJS_PUBLIC_KEY
+        "Y-ncLNPs1MjSs0LO8" //REACT_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
