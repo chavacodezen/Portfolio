@@ -198,7 +198,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Bryan optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "The quality of his products and services exceeds all expectations. Definitely an awesome experience working with him.",
     name: "Juan Munoz",
     designation: "Sr Dev",
     company: "LACROIX",
