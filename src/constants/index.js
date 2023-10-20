@@ -1,29 +1,36 @@
 import {
-  mobile,
   backend,
   creator,
+  mobile,
   web,
+  // Tech
+  dotnet,
+  reactjs,
+  csharp,
   javascript,
   typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
+  python,
   nodejs,
-  mongodb,
+  graphql,
+  sql,
+  azure,
+  aws,
+  firebase,
   git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  // Company
+  company1,
+  company2,
+  company3,
+  company4,
+  // Projects
   crownreact,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  retournreact,
+  borderchat,
+  // Testimonials
+  testimonial1,
+  testimonial2,
+  testimonial3,
 } from "../assets";
 
 export const navLinks = [
@@ -55,19 +62,23 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "DevOps",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Dot Net",
+    icon: dotnet,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "C#",
+    icon: csharp,
   },
   {
     name: "JavaScript",
@@ -78,36 +89,36 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Python",
+    icon: python,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "GraphQL",
+    icon: graphql,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "SQL",
+    icon: sql,
+  },
+  {
+    name: "Azure",
+    icon: azure,
+  },
+  {
+    name: "AWS",
+    icon: aws,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
   },
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
@@ -117,55 +128,53 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Programmer & System Implementer",
+    company_name: "LACROIX",
+    icon: company1,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2022 - Current",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Deployed a Component Cost Increase Tracker for the Purchasing Managers, and Accounting Managers. Developed with ASP.NET (MVC) a portal to have all the online projects together. For the Purchasing Team I have created a Price Increase Log (for components) and for the Accounting Managers a Component Cost Increase Tracker where they see how the price increases in the component (made by the purchasing team) affect their assemblies cost, tracking the gained/lost revenue and Tp.",
+      "Deployed Power BI Dashboards for Quality, Production and Supply Chain.",
+      "Deployed EDI Reports. Developed an EDI parse tool with Python to handle EDI files and give them format to interact and create reports.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Jr Programmer",
+    company_name: "Firstronic",
+    icon: company2,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Mar 2020 - May 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Improved management of production hardware resources using Raspberry Pi, developed Python scripts and put them on the stations monitoring and storing information of the processes in our SQL DB, replacing operators and equipment.",
+      "Deployed a Supply-Chain Control Monitor for the Purchasing team.",
+      "Deployed a Demand Accuracy Tool for the Materials Managers.",
+      "Deployed a Defective Containers Report for the Quality team.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Internship",
+    company_name: "Firstonic",
+    icon: company3,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Oct 2019 - Mar 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing and maintaining applications using .NET and other related technologies.",
+      "Collaborating with cross-functional teams including quality, product managers, and other developers to create high-quality products.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Full Stack Developer",
+    company_name: "Freelance",
+    icon: company4,
+    iconBg: "WHITE",
+    date: "Oct 2019 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed E-Commerce Web App.",
+      "Developed Inventory Control Web App.",
+      "Developed EDI Web App.",
+      "Developed BorderChat with React Native.",
     ],
   },
 ];
@@ -173,27 +182,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Bryan proved me wrong.",
     name: "Wally Johnson",
-    designation: "CFO",
+    designation: "VP & CFO",
     company: "LACROIX",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
+    image: testimonial1,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Bryan does.",
     name: "Ed Weinheimer",
     designation: "CTO",
     company: "LACROIX",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: testimonial2,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Bryan optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Juan Munoz",
     designation: "Sr Dev",
     company: "LACROIX",
-    image: "https://randomuser.me/api/portraits/men/6.jpg",
+    image: testimonial3,
   },
 ];
 
@@ -245,7 +254,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: retournreact,
     source_code_link: "https://github.com/",
   },
   {
@@ -266,7 +275,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: borderchat,
     source_code_link: "https://github.com/",
   },
 ];

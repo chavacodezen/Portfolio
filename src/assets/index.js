@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -6,30 +6,34 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
+// Tech
+import dotnet from "./tech/dotnet.svg";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
+import csharp from "./tech/csharp.png";
+import javascript from "./tech/javascript.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
-
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
+import python from "./tech/python.svg";
+import nodejs from "./tech/nodejs.png";
+import graphql from "./tech/graphql.svg";
+import sql from "./tech/sql.svg";
+import azure from "./tech/azure.svg";
+import aws from "./tech/aws.svg";
+import firebase from "./tech/firebase.svg";
+import git from "./tech/git.png";
+import docker from "./tech/docker.png";
+// Company
+import company1 from "./company/lacroix.png";
+import company2 from "./company/firstronic.png";
+import company3 from "./company/firstronic.png";
+import company4 from "./company/codezen.svg";
+// Projects
 import crownreact from "./projects/crownreact.png";
-import carrent from "./projects/carrent.png";
-import jobit from "./projects/jobit.png";
-import tripguide from "./projects/tripguide.png";
+import retournreact from "./projects/retournreact.png";
+import borderchat from "./projects/borderchat.png";
+// Testimonials
+import testimonial1 from "./testimonials/wallyjohnson.jpg";
+import testimonial2 from "./testimonials/edweinheimer.jpg";
+import testimonial3 from "./testimonials/juanmunoz.jpg";
 
 export {
   logo,
@@ -40,25 +44,32 @@ export {
   github,
   menu,
   close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
+  // Tech
+  dotnet,
   reactjs,
-  redux,
-  tailwind,
+  csharp,
+  javascript,
   typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  python,
+  nodejs,
+  graphql,
+  sql,
+  azure,
+  aws,
+  firebase,
+  git,
+  docker,
+  // Company
+  company1,
+  company2,
+  company3,
+  company4,
+  // Projects
   crownreact,
-  carrent,
-  jobit,
-  tripguide,
+  retournreact,
+  borderchat,
+  // Testimonials
+  testimonial1,
+  testimonial2,
+  testimonial3,
 };
