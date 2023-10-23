@@ -13,8 +13,8 @@ const Computers = ({ isMobile }) => {
       <ambientLight intensity={1.5} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.45 : 0.65}
-        position={isMobile ? [-1, -2.3, -1] : [-1, -2.8, -1.2]}
+        scale={isMobile ? 0.5 : 0.7}
+        position={isMobile ? [-1, -2.2, -1] : [-1, -3.2, -1.2]}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
