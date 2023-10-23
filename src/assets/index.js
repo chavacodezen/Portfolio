@@ -27,13 +27,15 @@ import company2 from "./company/firstronic.png";
 import company3 from "./company/firstronic.png";
 import company4 from "./company/codezen.svg";
 // Projects
-import crownreact from "./projects/crownreact.png";
-import retournreact from "./projects/retournreact.png";
-import borderchat from "./projects/borderchat.png";
+import project1 from "./projects/crownreact.png";
+import project2 from "./projects/retournreact.png";
+import project3 from "./projects/borderchat.png";
 // Testimonials
 import testimonial1 from "./testimonials/wallyjohnson.jpg";
 import testimonial2 from "./testimonials/edweinheimer.jpg";
 import testimonial3 from "./testimonials/juanmunoz.jpg";
+// Resume
+import resume from "./resume/Resume-BFCM.pdf";
 
 export {
   logo,
@@ -65,11 +67,13 @@ export {
   company3,
   company4,
   // Projects
-  crownreact,
-  retournreact,
-  borderchat,
+  project1,
+  project2,
+  project3,
   // Testimonials
   testimonial1,
   testimonial2,
   testimonial3,
+  // Resume
+  resume,
 };

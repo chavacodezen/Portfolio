@@ -2,11 +2,26 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { logo, menu, close } from '../assets';
+import { logo, menu, close, resume } from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
+
+  const handleResumeDownload = () => {
+    // Create a link element
+    const link = document.createElement("a");
+    link.href = resume;
+    link.target = "_blank";
+    link.download = "Resume.pdf";
+
+    // Append the link to the body and trigger a click to start the download
+    document.body.appendChild(link);
+    link.click();
+
+    // Remove the link from the body
+    document.body.removeChild(link);
+  };
 
   return (
     <nav
@@ -43,6 +58,18 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
+          {/* Add a new li element for "Download Resume" */}
+          <li
+            className={`${
+              active === "Download Resume" ? "text-white" : "text-secondary"
+            } hover:text-white text-[18px] font-medium cursor-pointer`}
+            onClick={() => {
+              setActive("Download Resume");
+              handleResumeDownload();
+            }}
+          >
+            <a href="#download">Download Resume</a>
+          </li>
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
@@ -71,6 +98,19 @@ const Navbar = () => {
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
+              {/* Add a new li element for "Download Resume" in the mobile menu */}
+              <li
+                className={`${
+                  active === "Download Resume" ? "text-white" : "text-secondary"
+                } font-poppins font-medium cursor-pointer text-[16px]`}
+                onClick={() => {
+                  setToggle(!toggle);
+                  setActive("Download Resume");
+                  handleResumeDownload();
+                }}
+              >
+                <a href="#download">Download Resume</a>
+              </li>
             </ul>
           </div>
         </div>

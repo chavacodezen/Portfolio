@@ -24,9 +24,9 @@ import {
   company3,
   company4,
   // Projects
-  crownreact,
-  retournreact,
-  borderchat,
+  project1,
+  project2,
+  project3,
   // Testimonials
   testimonial1,
   testimonial2,
@@ -229,7 +229,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: crownreact,
+    image: project1,
     source_code_link: "https://cheerful-cocada-2e7bfa.netlify.app/",
   },
   {
@@ -254,7 +254,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: retournreact,
+    image: project2,
     source_code_link: "https://github.com/",
   },
   {
@@ -275,7 +275,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: borderchat,
+    image: project3,
     source_code_link: "https://github.com/",
   },
 ];
