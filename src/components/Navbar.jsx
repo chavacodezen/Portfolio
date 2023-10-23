@@ -23,18 +23,12 @@ const Navbar = () => {
 
     // Remove the link from the body
     document.body.removeChild(link);
-
-    // Handle iOS specific behavior
-    if (navigator.userAgent.match(/ipad|iphone/i)) {
-      // Create an iframe to trigger the download
-      const iframe = document.createElement("iframe");
-      iframe.style.display = "none";
-      document.body.appendChild(iframe);
-      iframe.src = resume;
-      setTimeout(() => document.body.removeChild(iframe), 3000); // Remove the iframe after 3 seconds
-    }
   };
 
+  const handleResumeDownloadiOS = () => {
+    // For iOS, use the 'window.open' method to open the file in a new window
+    window.open(resume, "_blank");
+  };
 
   return (
     <nav
@@ -78,7 +72,12 @@ const Navbar = () => {
             } hover:text-white text-[18px] font-medium cursor-pointer`}
             onClick={() => {
               setActive("Download Resume");
-              handleResumeDownload();
+              // Check if it's an iOS device
+              if (navigator.userAgent.match(/ipad|iphone/i)) {
+                handleResumeDownloadiOS();
+              } else {
+                handleResumeDownload();
+              }
             }}
           >
             <a href="#download">Download Resume</a>
@@ -119,7 +118,12 @@ const Navbar = () => {
                 onClick={() => {
                   setToggle(!toggle);
                   setActive("Download Resume");
-                  handleResumeDownload();
+                  // Check if it's an iOS device
+                  if (navigator.userAgent.match(/ipad|iphone/i)) {
+                    handleResumeDownloadiOS();
+                  } else {
+                    handleResumeDownload();
+                  }
                 }}
               >
                 <a href="#download">Download Resume</a>
