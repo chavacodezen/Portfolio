@@ -3,8 +3,26 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
+  // Function to check if the device is an iPhone in landscape mode
+  const isIphoneInLandscape = () => {
+    return (
+      /iPhone/.test(navigator.userAgent) &&
+      window.orientation &&
+      Math.abs(window.orientation) === 90
+    );
+  };
+
+  // Conditionally render the ComputersCanvas based on the device and orientation
+  const renderComputersCanvas = () => {
+    if (isIphoneInLandscape()) {
+      return null; // Don't render ComputersCanvas in landscape mode
+    }
+
+    return <ComputersCanvas />;
+  };
+
   return (
-    <section className={`relative w-full h-screen mx-auto xs:h-auto`}>
+    <section className={`relative w-full h-screen mx-auto`}>
       <div
         className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -14,12 +32,8 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white xs:text-4xl`}>
-            Bienvenidos!
-          </h1>
-          <p
-            className={`${styles.heroSubText} mt-2 text-white-100 xs:text-base`}
-          >
+          <h1 className={`${styles.heroHeadText} text-white`}>Bienvenidos!</h1>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I'm &nbsp;
             <span className="text-[#915eff]">Bryan</span>
             , a Developer dedicated to solve complex challenges through the art
@@ -31,7 +45,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      {renderComputersCanvas()}
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
