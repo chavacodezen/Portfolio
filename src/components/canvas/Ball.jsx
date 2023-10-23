@@ -39,13 +39,14 @@ const Ball = (props) => {
 
 const BallCanvas = ({ icon }) => {
   return (
-    <Canvas
-      frameloop="demand"
-      dpr={[1, 2]}
-      gl={{ preserveDrawingBuffer: true }}
-    >
+    <Canvas dpr={[1, 2]} gl={{ preserveDrawingBuffer: true }}>
       <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls enableZoom={false} rotateSpeed={0.5} />
+        <OrbitControls
+          enableZoom={false}
+          rotateSpeed={0.5}
+          maxPolarAngle={Math.PI / 2}
+          minPolarAngle={Math.PI / 2}
+        />
         <Ball imgUrl={icon} />
       </Suspense>
 
