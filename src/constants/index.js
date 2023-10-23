@@ -85,20 +85,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "Python",
     icon: python,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "GraphQL",
-    icon: graphql,
   },
   {
     name: "SQL",
@@ -111,10 +99,6 @@ const technologies = [
   {
     name: "AWS",
     icon: aws,
-  },
-  {
-    name: "Firebase",
-    icon: firebase,
   },
   {
     name: "git",
