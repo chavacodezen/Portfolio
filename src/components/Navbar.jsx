@@ -15,13 +15,26 @@ const Navbar = () => {
     link.target = "_blank";
     link.download = "Resume.pdf";
 
-    // Append the link to the body and trigger a click to start the download
+    // Append the link to the body
     document.body.appendChild(link);
+
+    // Programmatically trigger a click event
     link.click();
 
     // Remove the link from the body
     document.body.removeChild(link);
+
+    // Handle iOS specific behavior
+    if (navigator.userAgent.match(/ipad|iphone/i)) {
+      // Create an iframe to trigger the download
+      const iframe = document.createElement("iframe");
+      iframe.style.display = "none";
+      document.body.appendChild(iframe);
+      iframe.src = resume;
+      setTimeout(() => document.body.removeChild(iframe), 3000); // Remove the iframe after 3 seconds
+    }
   };
+
 
   return (
     <nav
