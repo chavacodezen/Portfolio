@@ -8,25 +8,7 @@ const Navbar = () => {
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
 
-  const handleResumeDownload = () => {
-    // Create a link element
-    const link = document.createElement("a");
-    link.href = resume;
-    link.target = "_blank";
-    link.download = "Resume.pdf";
-
-    // Append the link to the body
-    document.body.appendChild(link);
-
-    // Programmatically trigger a click event
-    link.click();
-
-    // Remove the link from the body
-    document.body.removeChild(link);
-  };
-
-  const handleResumeDownloadiOS = () => {
-    // For iOS, use the 'window.open' method to open the file in a new window
+  const handleResume = () => {
     window.open(resume, "_blank");
   };
 
@@ -65,22 +47,17 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
-          {/* Add a new li element for "Download Resume" */}
+          {/* Add a new li element for "Resume" */}
           <li
             className={`${
-              active === "Download Resume" ? "text-white" : "text-secondary"
+              active === "Resume" ? "text-white" : "text-secondary"
             } hover:text-white text-[18px] font-medium cursor-pointer`}
             onClick={() => {
-              setActive("Download Resume");
-              // Check if it's an iOS device
-              if (navigator.userAgent.match(/ipad|iphone/i)) {
-                handleResumeDownloadiOS();
-              } else {
-                handleResumeDownload();
-              }
+              setActive("Resume");
+              handleResume();
             }}
           >
-            <a href="#download">Download Resume</a>
+            <a href="#download">Resume</a>
           </li>
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -110,23 +87,18 @@ const Navbar = () => {
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
-              {/* Add a new li element for "Download Resume" in the mobile menu */}
+              {/* Add a new li element for "Resume" in the mobile menu */}
               <li
                 className={`${
-                  active === "Download Resume" ? "text-white" : "text-secondary"
+                  active === "Resume" ? "text-white" : "text-secondary"
                 } font-poppins font-medium cursor-pointer text-[16px]`}
                 onClick={() => {
                   setToggle(!toggle);
-                  setActive("Download Resume");
-                  // Check if it's an iOS device
-                  if (navigator.userAgent.match(/ipad|iphone/i)) {
-                    handleResumeDownloadiOS();
-                  } else {
-                    handleResumeDownload();
-                  }
+                  setActive("Resume");
+                  handleResume();
                 }}
               >
-                <a href="#download">Download Resume</a>
+                <a href="#download">Resume</a>
               </li>
             </ul>
           </div>

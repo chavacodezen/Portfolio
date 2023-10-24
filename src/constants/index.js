@@ -116,13 +116,82 @@ const experiences = [
     company_name: "LACROIX",
     icon: company1,
     iconBg: "#383E56",
-    date: "Oct 2019 - Current",
+    date: "May 2022 - Current",
     points: [
-      "Developed Company Internal Portal | Created a centralized portal using .NET Framework (MVC) to consolidate various online projects. Streamlined project management by providing a unified platform for different teams.",
-      "Implemented Price Increase Log | Designed and integrated a log system for the Purchasing Team to track and record component price increases. Replaced the cumbersome Excel-based process, enhancing efficiency and accuracy in tracking price changes.",
-      "Introduced Cost Increase Tracker for Accounting Managers | Developed a Cost Increase Tracker for Accounting Managers to analyze the impact of component price increases on assembly costs. Integrated a comprehensive tracking system within the portal, connecting purchasing data with assembly costs. Empowered Accounting Managers to assess revenue and Tp changes, facilitating informed decision-making.",
-      "Project Leadership in Cost-Efficient Hardware Transition | Led a project to optimize production hardware management by transitioning from costly computers to Raspberry Pi devices, and eliminating manual interventions. Developed Python and Bash scripts on Raspbian OS to automate real-time monitoring, ensuring accurate and timely updates to visual aids and production graphs without manual interventions. Achieved significant cost savings by repurposing existing computers for administrative tasks and avoiding the need for new stations, and enhanced overall operational efficiency, reducing dependency on manual processes and establishing a sustainable hardware infrastructure.",
-      "Implemented Supply-Chain Control Monitor | Developed a comprehensive report using SSRS (SQL Reporting Services) and SQL for the purchasing team, consolidating demand and supplier data for a holistic view of quantities. Built an MRP (Material Requirements Planning) system that forecasts demand for upcoming months, incorporating inventories and data on bonds and pipes from suppliers. Designed a report to identify excess, and shortages, empowering the purchasing and planning team to anticipate and address potential supply chain issues.",
+      {
+        text: "Developed Company Internal Portal",
+        subpoints: [
+          "Created a centralized portal using .NET Framework (MVC) to consolidate various online projects.",
+          "Streamlined project management by providing a unified platform for different teams.",
+        ],
+      },
+      {
+        text: "Implemented Price Increase Log",
+        subpoints: [
+          "Designed and integrated a log system for the Purchasing Team to track and record component price increases.",
+          "Replaced the cumbersome Excel-based process, enhancing efficiency and accuracy in tracking price changes.",
+        ],
+      },
+      {
+        text: "Introduced Cost Increase Tracker for Accounting Managers",
+        subpoints: [
+          "Developed a Cost Increase Tracker for Accounting Managers to analyze the impact of component price increases on assembly costs.",
+          "Integrated a comprehensive tracking system within the portal, connecting purchasing data with assembly costs.",
+          "Empowered Accounting Managers to assess revenue and Tp changes, facilitating informed decision-making.",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Programmer Jr",
+    company_name: "Firstronic",
+    icon: company2,
+    iconBg: "#383E56",
+    date: "Mar 2020 - May 2022",
+    points: [
+      {
+        text: "Project Leadership in Cost-Efficient Hardware Transition",
+        subpoints: [
+          "Led a project to optimize production hardware management by transitioning from costly computers to Raspberry Pi devices, and eliminating manual interventions.",
+          "Developed Python and Bash scripts on Raspbian OS to automate real-time monitoring, ensuring accurate and timely updates to visual aids and production graphs without manual interventions.",
+          "Achieved significant cost savings by repurposing existing computers for administrative tasks and avoiding the need for new stations, and enhanced overall operational efficiency, reducing dependency on manual processes and establishing a sustainable hardware infrastructure.",
+        ],
+      },
+      {
+        text: "Implemented Supply-Chain Control Monitor",
+        subpoints: [
+          "Developed a comprehensive report using SSRS (SQL Reporting Services) and SQL for the purchasing team, consolidating demand and supplier data for a holistic view of quantities.",
+          "Built an MRP (Material Requirements Planning) system that forecasts demand for upcoming months, incorporating inventories and data on bonds and pipes from suppliers.",
+          "Designed a report to identify excess, and shortages, empowering the purchasing and planning team to anticipate and address potential supply chain issues.",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Internship",
+    company_name: "Firstronic",
+    icon: company3,
+    iconBg: "#383E56",
+    date: "Oct 2019 - Mar 2020",
+    points: [
+      {
+        text: "",
+        subpoints: [
+          "Developing and maintaining applications using .NET and other related technologies.",
+        ],
+      },
+      {
+        text: "",
+        subpoints: [
+          "Collaborating with cross-functional teams including quality, product managers, and other developers to create high-quality products.",
+        ],
+      },
+      {
+        text: "",
+        subpoints: [
+          "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+      },
     ],
   },
   {
@@ -130,11 +199,26 @@ const experiences = [
     company_name: "Freelance",
     icon: company4,
     iconBg: "WHITE",
-    date: "Oct 2019 - Present",
+    date: "Oct 2019 - Current",
     points: [
-      "Developed E-Commerce Web App.",
-      "Developed Inventory Control Web App.",
-      "Developed EDI Web App.",
+      {
+        text: "Developed EDI Web App",
+        subpoints: [
+          "I designed a specialized EDI Web App for warehouse management, employing React and Azure. This system facilitates streamlined communication of inventories and demands between my client's warehouse and their customers, optimizing supply chain operations.",
+        ],
+      },
+      {
+        text: "Developed Inventory Control Web App",
+        subpoints: [
+          "Designed using React and .NET. It efficiently manages inventory movements, tracking items in and out of warehouses with a user-friendly interface.",
+        ],
+      },
+      {
+        text: "Developed E-Commerce Web App",
+        subpoints: [
+          "I crafted a dynamic E-Commerce Web App using React, Firebase, GraphQL, and Stripe. Specialized in stylish clothing, the platform provides a seamless shopping experience with secure payment integration.",
+        ],
+      },
     ],
   },
 ];
