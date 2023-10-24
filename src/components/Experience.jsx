@@ -1,4 +1,7 @@
-import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
 import "react-vertical-timeline-component/style.min.css";
 import { styles } from "../styles";
@@ -23,16 +26,18 @@ const ExperienceCard = ({ experience }) => (
     }
   >
     <div>
-      <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
+      <h3 className="text-white text-[24px] font-bold tracking-wider">
+        {experience.title}
+      </h3>
       <p
-        className="text-secondary text-[18px] font-semibold"
+        className="text-secondary text-[18px] font-semibold tracking-wider"
         style={{ margin: 0 }}
       >
         {experience.company_name}
       </p>
     </div>
 
-    <ul className="mt-5 ml-5 space-y-2">
+    <ul className="mt-5 space-y-2">
       {experience.points.map((point, index) => (
         <li
           key={`experience-point-${index}`}
@@ -40,11 +45,11 @@ const ExperienceCard = ({ experience }) => (
         >
           <span style={{ textDecoration: "underline" }}>{point.text}</span>
           {point.subpoints && (
-            <ul className="ml-3 mt-2 space-y-2 list-disc">
+            <ul className="mt-2 space-y-2 list-disc ml-5">
               {point.subpoints.map((subpoint, subindex) => (
                 <li
                   key={`subpoint-${subindex}`}
-                  className="text-white-100 text-[14px] pl-3 tracking-wider"
+                  className="text-white-100 text-[14px] tracking-wider"
                 >
                   {subpoint}
                 </li>
@@ -74,6 +79,6 @@ const Experience = () => {
       </div>
     </>
   );
-}
+};
 
 export default SectionWrapper(Experience, "work");
