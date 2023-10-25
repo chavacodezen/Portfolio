@@ -324,4 +324,20 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const REACT_APP_EMAILJS_SERVICE_ID = "service_bj1iqgb";
+const REACT_APP_EMAILJS_TEMPLATE_ID = "template_oztja3q";
+const REACT_APP_EMAILJS_PUBLIC_KEY = "Y-ncLNPs1MjSs0LO8";
+
+const API_MEASUREMENT_ID = "G-Y1VHHJ1SBW";
+
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  REACT_APP_EMAILJS_SERVICE_ID,
+  REACT_APP_EMAILJS_TEMPLATE_ID,
+  REACT_APP_EMAILJS_PUBLIC_KEY,
+  API_MEASUREMENT_ID,
+};

@@ -18,6 +18,7 @@ Steps + Installations:
 8. Initiallize Tailwind, run on terminal: npx tailwindcss init -p
 9. Install three to be able to modeling 3D, run on terminal: npm install --legacy-peer-deps three
 10. Install Tilt to add tilt effects on cards, run on terminal: npm install react-tilt
+11. Install React-GA Library, run on terminal: npm install react-ga
 
 Vite/React Commands:
 1. Start project in dev mode: npm run dev
