@@ -20,6 +20,7 @@ Steps + Installations:
 10. Install Tilt to add tilt effects on cards, run on terminal: npm install react-tilt
 11. Install React-GA Library, run on terminal: npm install react-ga
 
+
 Vite/React Commands:
 1. Start project in dev mode: npm run dev
 
