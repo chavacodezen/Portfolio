@@ -23,6 +23,7 @@ Steps + Installations:
 Vite/React Commands:
 1. Start project in dev mode: npm run dev
 
+
 Git Commands:
 1. git add .
 2. git commit -m "feature"
