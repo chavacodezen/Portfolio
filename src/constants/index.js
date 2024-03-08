@@ -119,6 +119,13 @@ const experiences = [
     date: "May 2022 - Current",
     points: [
       {
+        text: "Migration to a new Unified Data Architecture and API Implementation",
+        subpoints: [
+          "Created a cohesive approach for handling data. ",
+          "Creation of DWH, ODS, MES, and used the data on Power BI Dashboards and Web Apps.",
+        ],
+      },
+      {
         text: "Developed Company Internal Portal",
         subpoints: [
           "Created a centralized portal using .NET Framework (MVC) to consolidate various online projects.",
