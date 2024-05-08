@@ -259,7 +259,32 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Crown React",
+    name: "ReactChat",
+    description:
+      "Web AI Assistant — Experience the future firsthand with our dynamic AI assistant, fueled by OpenAI and ElevenLabs innovation. Your digital ally awaits, ready to amaze and assist!",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "OpenAI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ElevenLabs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project1,
+    source_code_link: "https://bryan-reactchat.netlify.app/",
+  },
+  {
+    name: "CrownStore",
     description:
       "E-Commerce site — where style meets simplicity. Secure transactions, diverse sections, and hassle-free authentication await you.",
     tags: [
@@ -280,33 +305,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: project1,
-    source_code_link: "https://cheerful-cocada-2e7bfa.netlify.app/",
-  },
-  {
-    name: "Retourn React",
-    description:
-      "Web & Mobile application that enables users to search for rentals, list new rentals, view estimated price ranges, and locate available rentals based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "react-native",
-        color: "green-text-gradient",
-      },
-      {
-        name: "aws",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "graphql",
-        color: "pink-text-gradient",
-      },
-    ],
     image: project2,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://cheerful-cocada-2e7bfa.netlify.app/",
   },
   {
     name: "BorderChat",
