@@ -230,33 +230,6 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Bryan proved me wrong.",
-    name: "Wally Johnson",
-    designation: "VP & CFO",
-    company: "LACROIX",
-    image: testimonial1,
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Bryan does.",
-    name: "Ed Weinheimer",
-    designation: "CTO",
-    company: "LACROIX",
-    image: testimonial2,
-  },
-  {
-    testimonial:
-      "The quality of his products and services exceeds all expectations. Definitely an awesome experience working with him.",
-    name: "Juan Munoz",
-    designation: "Sr Dev",
-    company: "LACROIX",
-    image: testimonial3,
-  },
-];
-
 const projects = [
   {
     name: "ReactChat",
@@ -328,6 +301,33 @@ const projects = [
     ],
     image: project3,
     source_code_link: "https://github.com/",
+  },
+];
+
+const testimonials = [
+  {
+    testimonial:
+      "I've never met a developer who truly cares about their clients like Bryan does.",
+    name: "Wally Johnson",
+    designation: "VP & CFO",
+    company: "LACROIX",
+    image: testimonial1,
+  },
+  {
+    testimonial:
+      "Bryan consistently demonstrated a strong commitment to deliver exceptional results for every project.",
+    name: "Ed Weinheimer",
+    designation: "CTO",
+    company: "LACROIX",
+    image: testimonial2,
+  },
+  {
+    testimonial:
+      "The quality of his products and services exceeds all expectations. Definitely an awesome experience working with him.",
+    name: "Juan Munoz",
+    designation: "Sr Dev",
+    company: "LACROIX",
+    image: testimonial3,
   },
 ];
 
