@@ -31,7 +31,7 @@ const Navbar = () => {
               Bryan Chavarria
             </p>
             <span className="text-secondary font-medium flex-shrink-0">
-              Computer Science Engineer
+              Software Engineer
             </span>
           </div>
         </Link>

@@ -27,9 +27,9 @@ import company2 from "./company/firstronic.png";
 import company3 from "./company/firstronic.png";
 import company4 from "./company/codezen.svg";
 // Projects
-import project1 from "./projects/reactchat.png";
-import project2 from "./projects/crownreact.png";
-import project3 from "./projects/borderchat.png";
+import project1 from "./projects/carepulse.png";
+import project2 from "./projects/reactchat.png";
+import project3 from "./projects/crownreact.png";
 // Testimonials
 import testimonial1 from "./testimonials/wallyjohnson.jpg";
 import testimonial2 from "./testimonials/edweinheimer.jpg";

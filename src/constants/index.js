@@ -54,16 +54,109 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "App Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Backend",
     icon: backend,
   },
   {
     title: "DevOps",
     icon: creator,
+  },
+];
+
+const experiences = [
+  {
+    title: "Programmer & System Implementer",
+    company_name: "LACROIX",
+    icon: company1,
+    iconBg: "#383E56",
+    date: "May 2022 - Aug 2024",
+    points: [
+      {
+        text: "Migration to a new Unified Data Architecture and API Implementation",
+        subpoints: [
+          "Created a cohesive approach for handling data. ",
+          "Creation of DWH, ODS, MES, and used the data on Power BI Dashboards and Web Apps.",
+        ],
+      },
+      {
+        text: "Developed Company Internal Portal",
+        subpoints: [
+          "Created a centralized portal using .NET Framework (MVC) to consolidate various online projects.",
+          "Streamlined project management by providing a unified platform for different teams.",
+        ],
+      },
+      {
+        text: "Implemented Price Increase Log",
+        subpoints: [
+          "Designed and integrated a log system for the Purchasing Team to track and record component price increases.",
+          "Replaced the cumbersome Excel-based process, enhancing efficiency and accuracy in tracking price changes.",
+        ],
+      },
+      {
+        text: "Introduced Cost Increase Tracker for Accounting Managers",
+        subpoints: [
+          "Developed a Cost Increase Tracker for Accounting Managers to analyze the impact of component price increases on assembly costs.",
+          "Integrated a comprehensive tracking system within the portal, connecting purchasing data with assembly costs.",
+          "Empowered Accounting Managers to assess revenue and Tp changes, facilitating informed decision-making.",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Programmer Jr",
+    company_name: "LACROIX",
+    icon: company1,
+    iconBg: "#383E56",
+    date: "Mar 2020 - May 2022",
+    points: [
+      {
+        text: "Project Leadership in Cost-Efficient Hardware Transition",
+        subpoints: [
+          "Led a project to optimize production hardware management by transitioning from costly computers to Raspberry Pi devices, and eliminating manual interventions.",
+          "Developed Python and Bash scripts on Raspbian OS to automate real-time monitoring, ensuring accurate and timely updates to visual aids and production graphs without manual interventions.",
+          "Achieved significant cost savings by repurposing existing computers for administrative tasks and avoiding the need for new stations, and enhanced overall operational efficiency, reducing dependency on manual processes and establishing a sustainable hardware infrastructure.",
+        ],
+      },
+      {
+        text: "Implemented Supply-Chain Control Monitor",
+        subpoints: [
+          "Developed a comprehensive report using SSRS (SQL Reporting Services) and SQL for the purchasing team, consolidating demand and supplier data for a holistic view of quantities.",
+          "Built an MRP (Material Requirements Planning) system that forecasts demand for upcoming months, incorporating inventories and data on bonds and pipes from suppliers.",
+          "Designed a report to identify excess, and shortages, empowering the purchasing and planning team to anticipate and address potential supply chain issues.",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Internship",
+    company_name: "LACROIX",
+    icon: company1,
+    iconBg: "#383E56",
+    date: "Oct 2019 - Mar 2020",
+    points: [
+      {
+        text: "",
+        subpoints: [
+          "Developing and maintaining applications using .NET and other related technologies.",
+        ],
+      },
+      {
+        text: "",
+        subpoints: [
+          "Collaborating with cross-functional teams including quality, product managers, and other developers to create high-quality products.",
+        ],
+      },
+      {
+        text: "",
+        subpoints: [
+          "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+      },
+    ],
   },
 ];
 
@@ -110,127 +203,32 @@ const technologies = [
   },
 ];
 
-const experiences = [
-  {
-    title: "Programmer & System Implementer",
-    company_name: "LACROIX",
-    icon: company1,
-    iconBg: "#383E56",
-    date: "May 2022 - Current",
-    points: [
-      {
-        text: "Migration to a new Unified Data Architecture and API Implementation",
-        subpoints: [
-          "Created a cohesive approach for handling data. ",
-          "Creation of DWH, ODS, MES, and used the data on Power BI Dashboards and Web Apps.",
-        ],
-      },
-      {
-        text: "Developed Company Internal Portal",
-        subpoints: [
-          "Created a centralized portal using .NET Framework (MVC) to consolidate various online projects.",
-          "Streamlined project management by providing a unified platform for different teams.",
-        ],
-      },
-      {
-        text: "Implemented Price Increase Log",
-        subpoints: [
-          "Designed and integrated a log system for the Purchasing Team to track and record component price increases.",
-          "Replaced the cumbersome Excel-based process, enhancing efficiency and accuracy in tracking price changes.",
-        ],
-      },
-      {
-        text: "Introduced Cost Increase Tracker for Accounting Managers",
-        subpoints: [
-          "Developed a Cost Increase Tracker for Accounting Managers to analyze the impact of component price increases on assembly costs.",
-          "Integrated a comprehensive tracking system within the portal, connecting purchasing data with assembly costs.",
-          "Empowered Accounting Managers to assess revenue and Tp changes, facilitating informed decision-making.",
-        ],
-      },
-    ],
-  },
-  {
-    title: "Programmer Jr",
-    company_name: "Firstronic",
-    icon: company2,
-    iconBg: "#383E56",
-    date: "Mar 2020 - May 2022",
-    points: [
-      {
-        text: "Project Leadership in Cost-Efficient Hardware Transition",
-        subpoints: [
-          "Led a project to optimize production hardware management by transitioning from costly computers to Raspberry Pi devices, and eliminating manual interventions.",
-          "Developed Python and Bash scripts on Raspbian OS to automate real-time monitoring, ensuring accurate and timely updates to visual aids and production graphs without manual interventions.",
-          "Achieved significant cost savings by repurposing existing computers for administrative tasks and avoiding the need for new stations, and enhanced overall operational efficiency, reducing dependency on manual processes and establishing a sustainable hardware infrastructure.",
-        ],
-      },
-      {
-        text: "Implemented Supply-Chain Control Monitor",
-        subpoints: [
-          "Developed a comprehensive report using SSRS (SQL Reporting Services) and SQL for the purchasing team, consolidating demand and supplier data for a holistic view of quantities.",
-          "Built an MRP (Material Requirements Planning) system that forecasts demand for upcoming months, incorporating inventories and data on bonds and pipes from suppliers.",
-          "Designed a report to identify excess, and shortages, empowering the purchasing and planning team to anticipate and address potential supply chain issues.",
-        ],
-      },
-    ],
-  },
-  {
-    title: "Internship",
-    company_name: "Firstronic",
-    icon: company3,
-    iconBg: "#383E56",
-    date: "Oct 2019 - Mar 2020",
-    points: [
-      {
-        text: "",
-        subpoints: [
-          "Developing and maintaining applications using .NET and other related technologies.",
-        ],
-      },
-      {
-        text: "",
-        subpoints: [
-          "Collaborating with cross-functional teams including quality, product managers, and other developers to create high-quality products.",
-        ],
-      },
-      {
-        text: "",
-        subpoints: [
-          "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-      },
-    ],
-  },
-  {
-    title: "Full Stack Developer",
-    company_name: "Freelance",
-    icon: company4,
-    iconBg: "WHITE",
-    date: "Oct 2019 - Current",
-    points: [
-      {
-        text: "Developed EDI Web App",
-        subpoints: [
-          "I designed a specialized EDI Web App for warehouse management, employing React and Azure. This system facilitates streamlined communication of inventories and demands between my client's warehouse and their customers, optimizing supply chain operations.",
-        ],
-      },
-      {
-        text: "Developed Inventory Control Web App",
-        subpoints: [
-          "Designed using React and .NET. It efficiently manages inventory movements, tracking items in and out of warehouses with a user-friendly interface.",
-        ],
-      },
-      {
-        text: "Developed E-Commerce Web App",
-        subpoints: [
-          "I crafted a dynamic E-Commerce Web App using React, Firebase, GraphQL, and Stripe. Specialized in stylish clothing, the platform provides a seamless shopping experience with secure payment integration.",
-        ],
-      },
-    ],
-  },
-];
-
 const projects = [
+  {
+    name: "CarePulse",
+    description:
+      "Streamlined appointment scheduling platform for healthcare practices, built with NEXT.js, integrating real-time notifications & secure data management.",
+    tags: [
+      {
+        name: "NEXT",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AppWrite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Twilio",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Sentry",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project1,
+    source_code_link: "https://codezen-healthcare.vercel.app/",
+  },
   {
     name: "ReactChat",
     description:
@@ -253,7 +251,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: project1,
+    image: project2,
     source_code_link: "https://bryan-reactchat.netlify.app/",
   },
   {
@@ -278,29 +276,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: project2,
-    source_code_link: "https://cheerful-cocada-2e7bfa.netlify.app/",
-  },
-  {
-    name: "BorderChat",
-    description:
-      "Web & Mobile app with a dynamic and engaging platform for collaborative discussions and shared insights within the local developer community.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "react-native",
-        color: "green-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "pink-text-gradient",
-      },
-    ],
     image: project3,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://cheerful-cocada-2e7bfa.netlify.app/",
   },
 ];
 
