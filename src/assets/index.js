@@ -22,8 +22,8 @@ import firebase from "./tech/firebase.svg";
 import git from "./tech/git.png";
 import docker from "./tech/docker.png";
 // Company
-import company1 from "./company/lacroix.png";
-import company2 from "./company/firstronic.png";
+import company1 from "./company/wnc.png";
+import company2 from "./company/lacroix.png";
 import company3 from "./company/firstronic.png";
 import company4 from "./company/codezen.svg";
 // Projects

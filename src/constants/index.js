@@ -69,9 +69,21 @@ const services = [
 
 const experiences = [
   {
+    title: "Software Engineer II",
+    company_name: "WNC",
+    icon: company1,
+    iconBg: "#383E56",
+    date: "Oct 2024 - Current",
+    points: [
+      {
+        text: "",
+      },
+    ],
+  },
+  {
     title: "Programmer & System Implementer",
     company_name: "LACROIX",
-    icon: company1,
+    icon: company2,
     iconBg: "#383E56",
     date: "May 2022 - Aug 2024",
     points: [
@@ -109,7 +121,7 @@ const experiences = [
   {
     title: "Programmer Jr",
     company_name: "LACROIX",
-    icon: company1,
+    icon: company2,
     iconBg: "#383E56",
     date: "Mar 2020 - May 2022",
     points: [
@@ -134,7 +146,7 @@ const experiences = [
   {
     title: "Internship",
     company_name: "LACROIX",
-    icon: company1,
+    icon: company2,
     iconBg: "#383E56",
     date: "Oct 2019 - Mar 2020",
     points: [
