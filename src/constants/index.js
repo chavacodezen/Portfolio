@@ -77,6 +77,13 @@ const experiences = [
     points: [
       {
         text: "",
+        subpoints: [
+          "Support and optimization of Oracle ERP, including advanced queries and stored procedure development using PL/SQL.",
+          "Report generation and data analysis using Microsoft SQL Server, SSRS, and Power BI.",
+          "Maintenance and support of .NET applications for Quality, WH, and Purchasing departments, ensuring proper functionality and process optimization.",
+          "Development of Python-based tools for IT task automation, improving the team's operational efficiency.",
+          "Process optimization through technological solutions to enhance productivity and reduce operational times.",
+        ],
       },
     ],
   },
